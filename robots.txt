@@ -1,0 +1,4 @@
+Sitemap: https://adanaher.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: adanaher.github.io
