@@ -1,4 +1,4 @@
-Sitemap: https://adanaher.github.io/sitemapindex.xml
+Sitemap: https://blog.alecdanaher.com/sitemapindex.xml
 
 User-Agent: *
-Host: adanaher.github.io
+Host: blog.alecdanaher.com

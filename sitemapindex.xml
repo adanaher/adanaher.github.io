@@ -6,43 +6,43 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://adanaher.github.io/categories/art.xml</loc>
-  <lastmod>2024-02-11T15:15:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/categories/art.xml</loc>
+  <lastmod>2024-02-11T22:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://adanaher.github.io/categories/creative-coding.xml</loc>
-  <lastmod>2024-02-11T15:43:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/categories/creative-coding.xml</loc>
+  <lastmod>2024-02-11T22:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://adanaher.github.io/categories/digital-morphogenesis.xml</loc>
-  <lastmod>2024-02-11T15:43:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/categories/digital-morphogenesis.xml</loc>
+  <lastmod>2024-02-11T22:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://adanaher.github.io/categories/numpy.xml</loc>
-  <lastmod>2024-02-11T15:43:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/categories/numpy.xml</loc>
+  <lastmod>2024-02-11T22:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://adanaher.github.io/categories/personal.xml</loc>
-  <lastmod>2024-02-11T15:15:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/categories/personal.xml</loc>
+  <lastmod>2024-02-11T22:12:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://adanaher.github.io/categories/py5.xml</loc>
-  <lastmod>2024-02-11T15:43:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/categories/py5.xml</loc>
+  <lastmod>2024-02-11T22:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://adanaher.github.io/categories/python.xml</loc>
-  <lastmod>2024-02-11T15:43:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/categories/python.xml</loc>
+  <lastmod>2024-02-11T22:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://adanaher.github.io/galleries/rss.xml</loc>
-  <lastmod>2024-02-11T21:48:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/galleries/rss.xml</loc>
+  <lastmod>2024-02-11T22:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://adanaher.github.io/rss.xml</loc>
-  <lastmod>2024-02-11T15:43:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/rss.xml</loc>
+  <lastmod>2024-02-11T22:17:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://adanaher.github.io/sitemap.xml</loc>
-  <lastmod>2024-02-11T21:48:00Z</lastmod>
+  <loc>https://blog.alecdanaher.com/sitemap.xml</loc>
+  <lastmod>2024-02-11T22:17:00Z</lastmod>
  </sitemap>
 </sitemapindex>
