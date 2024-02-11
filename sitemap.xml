@@ -15,11 +15,39 @@
  </url>
  <url>
   <loc>https://adanaher.github.io/archive.html</loc>
-  <lastmod>2024-01-26T17:31:00Z</lastmod>
+  <lastmod>2024-02-09T21:29:00Z</lastmod>
  </url>
  <url>
   <loc>https://adanaher.github.io/categories/</loc>
-  <lastmod>2024-01-26T17:29:00Z</lastmod>
+  <lastmod>2024-02-11T15:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://adanaher.github.io/categories/art/</loc>
+  <lastmod>2024-02-09T20:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://adanaher.github.io/categories/creative-coding/</loc>
+  <lastmod>2024-02-09T20:46:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://adanaher.github.io/categories/digital-morphogenesis/</loc>
+  <lastmod>2024-02-11T15:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://adanaher.github.io/categories/numpy/</loc>
+  <lastmod>2024-02-11T15:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://adanaher.github.io/categories/personal/</loc>
+  <lastmod>2024-02-09T20:46:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://adanaher.github.io/categories/py5/</loc>
+  <lastmod>2024-02-11T15:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://adanaher.github.io/categories/python/</loc>
+  <lastmod>2024-02-09T20:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://adanaher.github.io/galleries/</loc>
@@ -28,6 +56,14 @@
  <url>
   <loc>https://adanaher.github.io/listings/</loc>
   <lastmod>2024-01-26T17:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://adanaher.github.io/posts/diffusion-limited-aggregation/</loc>
+  <lastmod>2024-02-09T21:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://adanaher.github.io/posts/my-journey-with-programming-python-and-creative-coding/</loc>
+  <lastmod>2024-02-09T20:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://adanaher.github.io/posts/test-jupyter-post/</loc>
