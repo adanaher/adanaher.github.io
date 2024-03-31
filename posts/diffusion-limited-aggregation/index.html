@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="
+og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Diffusion-Limited Aggregation | Alec's Blog</title>
-<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<title>Diffusion-Limited Aggregation | Alec Danaher's Blog</title>
+<link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/baguetteBox.min.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/code.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/theme.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/bootblog.css" rel="stylesheet" type="text/css">
+<link href="../../assets/css/custom.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
@@ -15,7 +26,7 @@
 <link rel="icon" href="../../icon.svg" sizes="16x16">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Alec Danaher">
 <link rel="prev" href="../my-journey-with-programming-python-and-creative-coding/" title="My Journey with Programming, Python, and Creative Coding" type="text/html">
-<meta property="og:site_name" content="Alec's Blog">
+<meta property="og:site_name" content="Alec Danaher's Blog">
 <meta property="og:title" content="Diffusion-Limited Aggregation">
 <meta property="og:url" content="https://blog.alecdanaher.com/posts/diffusion-limited-aggregation/">
 <meta property="og:description" content="This post is about my code for doing Diffusion-limited Aggregation using NumPy and Shapely.
@@ -47,7 +58,7 @@ Diffusion-limited aggregation (DLA) is the process whereby particles undergoing 
           <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
             <a class="navbar-brand blog-header-logo text-dark" href="../../">
 
-            <span id="blog-title">Alec's Blog</span>
+            <span id="blog-title">Alec Danaher's Blog</span>
         </a>
           </div>
             <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
@@ -55,7 +66,6 @@ Diffusion-limited aggregation (DLA) is the process whereby particles undergoing 
 <li class="nav-item">
     <a href="index.ipynb" id="sourcelink" class="nav-link">Source</a>
     </li>
-
 
                     
             </ul></nav>
@@ -87,8 +97,6 @@ Diffusion-limited aggregation (DLA) is the process whereby particles undergoing 
     <div class="body-content">
         <!--Body content-->
         
-        
-        
 <article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Diffusion-Limited Aggregation</a></h1>
 
         <div class="metadata">
@@ -99,12 +107,10 @@ Diffusion-limited aggregation (DLA) is the process whereby particles undergoing 
             <a href="." rel="bookmark">
             <time class="published dt-published" datetime="2024-02-11T10:00:00-05:00" itemprop="datePublished" title="2024-02-11 10:00">2024-02-11 10:00</time></a>
             </p>
-            
-        <p class="sourceline"><a href="index.ipynb" class="sourcelink">Source</a></p>
+                    <p class="sourceline"><a href="index.ipynb" class="sourcelink">Source</a></p>
 
         </div>
         
-
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -117,6 +123,7 @@ Diffusion-limited aggregation (DLA) is the process whereby particles undergoing 
 <p>Diffusion-limited aggregation (DLA) is the process whereby particles undergoing a random walk due to Brownian motion cluster together to form aggregates of such particles.</p>
 </blockquote>
 <p>Basically, DLA involves a bunch of particles "floating" in a "fluid", simulated using a <a href="https://en.wikipedia.org/wiki/Random_walk">random walk</a>, that stick to a growing group of particles when they get close enough. The result is an interesting branching pattern called a Brownian tree.</p>
+<!-- TEASER_END -->
 <p>I had found a few examples of doing DLA using Processing and Javascript, mostly using object-oriented programming to track the location and state (stuck or not) of the particles. I wanted to implement my own version in Python and specifically using NumPy, both for performance reasons and to get some more practice with using NumPy. Instead of tracking the "stuck" status of each particle in an object, I use one NumPy array to track the location of each particle and another NumPy array to indicate if each particle is stuck. This allows me to do vectorized operations using NumPy relatively easily and therefore avoid for loops.</p>
 <p>I wanted to keep my dependencies relatively minimal for this project, so I'm using only NumPy for the calculations and Shapely to display the points at the end (which also allows exporting as SVG from the Jupyter notebook so that I could laser cut the result). You'll notice I also imported numpy.typing because I strive to use type annotations in my function definitions as much as possible and this allowed me to type the function parameters as npt.ArrayLike.</p>
 </div>
@@ -404,13 +411,22 @@ Diffusion-limited aggregation (DLA) is the process whereby particles undergoing 
         </script></article><!--End of body content--><footer id="footer">
             Contents © 2024         <a href="mailto:alec@alecdanaher.com">Alec Danaher</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
             
-            
         </footer>
 </div>
 </div>
 
+            <script src="../../assets/js/jquery.min.js"></script><script src="../../assets/js/popper.min.js"></script><script src="../../assets/js/bootstrap.min.js"></script><script src="../../assets/js/baguetteBox.min.js"></script><!-- Social buttons --><div class="d-flex flex-row justify-content-center">
+    <a target="_blank" href="https://www.instagram.com/alecdanaherart/">
+        <svg class="mx-1" style="width: 24px; height: 24px;" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title>
+<path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"></path></svg></a><a target="_blank" href="https://www.facebook.com/alecdanaherart"><svg class="mx-1" style="width: 24px; height: 24px;" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title>
+<path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"></path></svg></a><a target="_blank" rel="me" href="https://fosstodon.org/@alecdanaher"><svg class="mx-1" style="width: 24px; height: 24px;" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Mastodon</title>
+<path d="M21.327 8.566c0-4.339-2.843-5.61-2.843-5.61-1.433-.658-3.894-.935-6.451-.956h-.063c-2.557.021-5.016.298-6.45.956 0 0-2.843 1.272-2.843 5.61 0 .993-.019 2.181.012 3.441.103 4.243.778 8.425 4.701 9.463 1.809.479 3.362.579 4.612.51 2.268-.126 3.541-.809 3.541-.809l-.075-1.646s-1.621.511-3.441.449c-1.804-.062-3.707-.194-3.999-2.409a4.523 4.523 0 0 1-.04-.621s1.77.433 4.014.536c1.372.063 2.658-.08 3.965-.236 2.506-.299 4.688-1.843 4.962-3.254.434-2.223.398-5.424.398-5.424zm-3.353 5.59h-2.081V9.057c0-1.075-.452-1.62-1.357-1.62-1 0-1.501.647-1.501 1.927v2.791h-2.069V9.364c0-1.28-.501-1.927-1.502-1.927-.905 0-1.357.546-1.357 1.62v5.099H6.026V8.903c0-1.074.273-1.927.823-2.558.566-.631 1.307-.955 2.228-.955 1.065 0 1.872.409 2.405 1.228l.518.869.519-.869c.533-.819 1.34-1.228 2.405-1.228.92 0 1.662.324 2.228.955.549.631.822 1.484.822 2.558v5.253z"></path></svg></a><a target="_blank" href="mailto:alec@alecdanaher.com"><svg class="mx-1" style="width: 24px; height: 24px;" role="img" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Email</title>
+<path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"></path></svg></a>
+</div>
+<!-- End of social buttons -->
 
-        <script src="../../assets/js/all-nocdn.js"></script><script>
+
+    <script>
     baguetteBox.run('div#content', {
         ignoreClass: 'islink',
         captions: function(element){var i=element.getElementsByTagName('img')[0];return i===undefined?'':i.alt;}});
