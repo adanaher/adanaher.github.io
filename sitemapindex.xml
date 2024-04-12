@@ -6,43 +6,67 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>https://blog.alecdanaher.com/categories/3d-printing.xml</loc>
+  <lastmod>2024-04-12T18:21:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://blog.alecdanaher.com/categories/art.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T18:18:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://blog.alecdanaher.com/categories/creative-coding.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T18:18:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://blog.alecdanaher.com/categories/digital-morphogenesis.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T17:16:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://blog.alecdanaher.com/categories/laser-cutting.xml</loc>
+  <lastmod>2024-04-12T18:21:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://blog.alecdanaher.com/categories/lightburn.xml</loc>
+  <lastmod>2024-04-12T18:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://blog.alecdanaher.com/categories/numpy.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T17:16:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://blog.alecdanaher.com/categories/personal.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T18:18:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://blog.alecdanaher.com/categories/plotting.xml</loc>
+  <lastmod>2024-04-12T18:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://blog.alecdanaher.com/categories/py5.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T17:16:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://blog.alecdanaher.com/categories/python.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T18:18:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://blog.alecdanaher.com/categories/rhino.xml</loc>
+  <lastmod>2024-04-11T01:24:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://blog.alecdanaher.com/categories/rhinoceros.xml</loc>
+  <lastmod>2024-04-12T18:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://blog.alecdanaher.com/galleries/rss.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T18:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://blog.alecdanaher.com/rss.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T18:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://blog.alecdanaher.com/sitemap.xml</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T18:21:00Z</lastmod>
  </sitemap>
 </sitemapindex>

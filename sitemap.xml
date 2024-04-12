@@ -15,11 +15,15 @@
  </url>
  <url>
   <loc>https://blog.alecdanaher.com/archive.html</loc>
-  <lastmod>2024-03-31T23:53:00Z</lastmod>
+  <lastmod>2024-04-12T18:21:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.alecdanaher.com/categories/</loc>
-  <lastmod>2024-02-11T15:15:00Z</lastmod>
+  <lastmod>2024-04-12T17:28:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.alecdanaher.com/categories/3d-printing/</loc>
+  <lastmod>2024-04-12T17:28:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.alecdanaher.com/categories/art/</loc>
@@ -34,6 +38,14 @@
   <lastmod>2024-02-11T15:15:00Z</lastmod>
  </url>
  <url>
+  <loc>https://blog.alecdanaher.com/categories/laser-cutting/</loc>
+  <lastmod>2024-04-11T01:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.alecdanaher.com/categories/lightburn/</loc>
+  <lastmod>2024-04-12T17:28:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://blog.alecdanaher.com/categories/numpy/</loc>
   <lastmod>2024-02-11T15:15:00Z</lastmod>
  </url>
@@ -42,12 +54,24 @@
   <lastmod>2024-02-09T20:46:00Z</lastmod>
  </url>
  <url>
+  <loc>https://blog.alecdanaher.com/categories/plotting/</loc>
+  <lastmod>2024-04-12T17:28:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://blog.alecdanaher.com/categories/py5/</loc>
   <lastmod>2024-02-11T15:15:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.alecdanaher.com/categories/python/</loc>
   <lastmod>2024-02-09T20:46:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.alecdanaher.com/categories/rhino/</loc>
+  <lastmod>2024-04-11T01:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.alecdanaher.com/categories/rhinoceros/</loc>
+  <lastmod>2024-04-12T17:16:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.alecdanaher.com/galleries/</loc>
@@ -66,11 +90,19 @@
   <lastmod>2024-02-09T21:29:00Z</lastmod>
  </url>
  <url>
+  <loc>https://blog.alecdanaher.com/posts/how-i-make-my-art/</loc>
+  <lastmod>2024-04-11T01:21:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://blog.alecdanaher.com/posts/my-journey-with-programming-python-and-creative-coding/</loc>
   <lastmod>2024-02-09T20:51:00Z</lastmod>
  </url>
  <url>
   <loc>https://blog.alecdanaher.com/posts/test-jupyter-post/</loc>
   <lastmod>2024-01-26T17:29:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.alecdanaher.com/posts/the-tools-i-use/</loc>
+  <lastmod>2024-04-12T17:16:00Z</lastmod>
  </url>
 </urlset>

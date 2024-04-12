@@ -1,0 +1,38 @@
+<!--
+.. title: How I Make My Art
+.. description: A summary of the methods I use to make my laser cut wood art
+.. slug: how-i-make-my-art
+.. date: 2024-04-10 21:19:14 UTC-04:00
+.. tags: laser cutting,rhino
+.. category:
+.. link:
+.. description:
+.. type: text
+-->
+
+My methods for making my art have evolved in the 5 years I’ve been doing it. I leverage a mix of skills from various disciplines, using CAD skills that I learned in engineering school, programming skills that I have picked up in my career, and making skills that I have picked up along the way.
+
+<!-- TEASER_END -->
+
+I started making my art at a makerspace in Maynard, MA. The owners taught me how to use the equipment, specifically the laser cutter. At the time I was using a Glowforge, but pretty soon wanted something bigger.
+
+After about 9 months of making my art and monopolizing the laser cutter at the makerspace, I decided to get my own laser cutter. I tried doing research to find the “best” one, but it’s such a specialty tool that there wasn’t a ton of information out there. I landed on the Laguna SmartShop Laser MX, not because my research told me it was the best, but because #reasons. I’m not really sure what made me decide to get that laser above a bunch of other good options. Do I think it was necessarily the best choice now in retrospect? No, but I’ve been happy with the laser and don’t have much to compare it to. It was one of the more affordable options and I wasn’t looking to spend an arm and a leg. Overall I have been happy with it and don’t have any major complaints.
+
+The only major maintenance I’ve had to do on it was to replace the laser tube once, which is considered a consumable part anyway and is only rated for a certain lifetime.
+
+The laser cutter bed is just under 24” by 36”. I would love to be able to do larger pieces, but that has mostly been big enough for my purposes up until now. I can make a larger piece work, though it is a little clunky to do the alignment using the pass-through slot.
+
+If you’re looking for a laser of your own, I think the Laguna is a solid choice. I wouldn’t necessarily say it’s the best and that is definitely the one you should get. Do your own research and see what you think. If you’re at a loss for what to get and are overwhelmed by the choices available, I don’t think you’ll be disappointed with the Laguna.
+I’m slightly more willing to rave about the software I use to drive the laser though. The default laser cutter software that comes with Ruida controllers (the controller in the Laguna and many other laser cutters that drives the laser) is RDWorks, which I don’t think I ever even used. The owners of the makerspace were using a software called Lightburn, which is compatible with many different types of laser controllers including Ruida. I bought and started using Lightburn almost immediately and am very happy with it. It’s obvious that whoever created this software understands the needs of the laser cutting community and also knows how to design good software. I gladly pay my $30 every year to renew my software license. If you have a laser cutter with a controller compatible with Lightburn, I highly recommend using it.
+
+Another thing that took me far too long to do was to get the Lightburn Bridge. I used to have to carry my laptop running Lightburn into my dusty workshop every time I wanted to start a cut. As a result, my laptop got pretty dirty. The fan runs pretty loudly and I sometimes suspect it is because of the dusty environment it often traveled into. The Lightburn Bridge changed that. I bought the kit from Lightburn, which included a small Raspberry Pi computer loaded with the Lightburn Bridge software. I simply plugged in the Raspberry Pi and connected it to the laser via ethernet and then did some setup on my computer and voila, now I can send my cuts directly to the laser from my computer without lugging my computer into the workshop. It’s been a game changer for me.
+
+Lightburn allows you to do some creation and editing of geometry. I typically don’t draw my designs in Lightburn (though I suspect it’s possible), but I very often use it for cleaning up design or offsetting lines to create solid shapes that can be laser cut. When it comes time to sit down and do a design, I’m often using Rhinoceros 3D CAD software to do the design. I started by using Autodesk Fusion 360 for my design work, mostly because it was free for hobbyists and I had used AutoCAD and Autodesk Inventor in college, so I understood how CAD software worked and specifically how Autodesk’s products worked. Many other artists to do work like mine primarily use vector graphics software, most commonly Adobe Illustrator. I haven’t used Illustrator before (because I’m cheap), but have used Inkscape (which is a free and open source vector graphics software that is similar to Illustrator) for some of my designs. In general, the way my brain works seems to more align with 3D CAD software so that is what I tend to use over vector graphics software primarily. I would probably be very happy in something like Illustrator eventually, but I suspect there would be a learning curve to get me there and I’m happy in Rhinoceros.
+
+I moved away from Fusion 360 because they changed their licensing and I was going to have to start paying a hefty subscription fee that I just wasn’t interested in doing. I was starting to become interested in parametric design and how that could play into my art and I kept seeing Grasshopper, a visual parametric design tool for Rhinoceros, all over the place and that was enough to get me to make the switch to Rhinoceros. I am overall very happy with Rhinoceros and Grasshopper. I go through phases where I don’t use them much and then there is a slight learning curve to get back into them, but overall they are great software and have an interesting community behind them.
+
+Most of my designs are some combination of manual drawing within Rhinoceros and algorithmic components from within Grasshopper. They do a good job allowing you to combine these two approaches relatively seamlessly. One thing I haven’t explored as much as I would like and plan to in the future is using Python within Rhinoceros and Grasshopper. I love Python (more on that later) and intend to figure out how to use it more. One thing that has stopped me up until now is the fact that before the current version of Rhinoceros, version 8, the Python scripting used an outdated version of Python and didn’t allow using external libraries, which I felt would limit its utility to me. The new version of Rhinoceros allows the use of Python 3 and has an updated code editor and allows the use of external libraries. I missed the window for the discounted upgrade (because I hadn’t learned about the Python update yet) and so am holding off on pulling the trigger to update my software.
+
+In addition to Rhinoceros and Grasshopper, I often create some designs using generative approaches in Processing, p5.js, and most recently vsketch and py5. I use Python in my day job at work and found it challenging to context switch between Python and Java or Javascript and I found it hampered my ability to express myself. Once I found some generative tools in Python I started using those much more.
+
+In addition to laser cutting, I also dabble in a few other digital fabrication tools. I have a 3D printer, a Prusa MK3s, and an AxiDraw pen plotter. The 3D printer doesn’t really factor into my art much, but I also like to play with electronics and I occasionally use that to support that exploration. I also use it to make useful things, like small pyramids to hold up my art pieces when I paint or add finish to them.
