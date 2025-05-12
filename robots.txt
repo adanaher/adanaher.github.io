@@ -1,1 +1,1 @@
-Sitemap: https://adanaher.github.io/sitemap.xml
+Sitemap: https://blog.alecdanaher.com/sitemap.xml
